@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Acelerador de áudio para WhatsApp web",
+    "version": "0.1",
+    "author": "Romário Arruda",
+    "content_scripts": [
+        {
+            "matches": ["https://web.whatsapp.com/"],
+            "css": ["style.css"],
+            "js": ["content.js"]
+        }
+    ]
+}
